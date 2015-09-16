@@ -41,8 +41,8 @@ set backspace=indent,eol,start
 " get rid of message prompt
 set shortmess=atI
 
-" show line numbering
-set nu 
+" show relative line numbering
+set rnu 
 
 " When nonempty, this option determines the content of the status line
 set statusline=%F%m%r%h%w\ [TYPE=%Y]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
