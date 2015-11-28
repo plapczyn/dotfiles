@@ -5,4 +5,5 @@ git config --global user.email "philip.lapczynski@gmail.com"
 # Set up symlinks
 ln -s ~/.dotfiles/vim/ ~/.vim
 ln -s ~/.dotfiles/_gvimrc ~/.vimrc
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
