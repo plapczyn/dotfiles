@@ -13,6 +13,10 @@ set laststatus=2
 " gotta pick a theme
 color jellybeans
 
+if has('unix')
+  set t_Co=256
+endif
+
 " open gui maximized
 au GUIEnter * simalt ~x
 
