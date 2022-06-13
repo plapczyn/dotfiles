@@ -1,3 +1,7 @@
+"History
+"
+" 2022-06-13: Changed from relative line numbering to explicit
+"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Look and Feel
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -45,8 +49,8 @@ set backspace=indent,eol,start
 " get rid of message prompt
 set shortmess=atI
 
-" show relative line numbering
-set rnu 
+" show line numbering
+set number
 
 " When nonempty, this option determines the content of the status line
 set statusline=%F%m%r%h%w\ [TYPE=%Y]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
@@ -106,14 +110,6 @@ set hlsearch
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Key Remappings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
-" 20090811: No longer used due to supertab plugin
-" turn tab into autocomplete
-"inoremap <Tab> <C-N>
-
-" 20090811: No longer used due to supertab plugin
-" turn shift tab into tab
-"inoremap <S-Tab> <Tab>
-
 " control - hjkl change vim panes
 noremap <C-H> <C-w><C-H>
 noremap <C-J> <C-W><C-J>
